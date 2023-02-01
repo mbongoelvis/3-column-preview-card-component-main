@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 15px;
+}
+.container{
+    margin:8rem auto;
+    width: 1000px;
+    height: 500px;
+    max-width: 1000px;
+    max-height: 600px;
+    display: flex;
+    border-radius: 10px;
+}
+.card1{
+    height: auto;
+    width: 300px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    font-family: Lexend Deca, sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.card2{
+    height: auto;
+    width: 300px;
+    background-color: hsl(184, 100%, 22%);
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca, sans-serif;
+}
+.card3{
+    height: auto;
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca, sans-serif;
+}
+.card1 p{
+    margin: 20% 30px;
+    height: 40px;
+    min-height: 40px;
+    font-size: 15px;
+}
+.card2 p{
+    margin: 20% 25px;
+    width: 250px;
+    font-size: 15px;
+    height: 40px;
+}
+.card3 p{
+    margin: 20% 25px;
+    max-width: 250px;
+    font-size: 15px;
+    height: 40px;
+}
+h1{
+    margin: 30px 25px;
+    font-family: 'Big Shoulders Display';
+}
+img{
+    padding: 20px 10px;
+}
+.card1 button{
+    margin: 70px 28%;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: hsl(31, 77%, 52%);
+    font-weight: 600;
+}
+.card2 button{
+    margin: 70px 28%;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: hsl(184, 100%, 22%);
+    font-weight: 600;
+}
+.card3 button{
+    margin: 70px 28%;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: hsl(179, 100%, 13%);
+    font-weight: 600;
+}
